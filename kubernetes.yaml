@@ -26,7 +26,7 @@ spec:
       - name: my-flask-app1 
       # Add the local image name
         image: my-flask-app1 
-        # never pull the image policy
+        # never pull the image policy. Search for localy docker image
         imagePullPolicy: Never
         ports:
         # port for running the container
